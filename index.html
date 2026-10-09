@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rintaro Sotono</title>
+        <link rel="stylesheet" href="style.css">
+     </head>
+    <body>
+        <header>
+            <a href="#top">Rintaro Sotono</a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </nav>
+
+        </header>
+        <main>
+            <section id="top">
+             <img src="./media/IMG_9944.jpg" width="80%">
+             <h1>
+                Rintaro Sotono<br>
+                portfolio
+             </h1>
+            </section>
+            <section id="about">
+             <h3>About</h3>
+             <p>
+                外野 倫汰朗<br>
+                東京都市大デザインデータ科学部
+             </p>
+             <p>
+                専門 データサイエンス
+             </p>
+            </section>
+            <section id="works" class="works">
+             <h3>Works</h3>
+             <div class="works-controls">
+                <select id="category">
+                    <option value="all">すべてのカテゴリ</option>
+                </select>
+                <select id="sort">
+                    <option value="new">新しい順</option>
+                    <option value="old">古い順</option>
+                    <option value="title">タイトル順</option>
+                </select>
+             </div>
+             <div id="works-grid"></div>
+            </section>
+        </main>
+        <footer>
+            <span>©2026 Rintaro Sotono</span>
+
+        </footer>
+
+        <script src="works.js"></script>
+    </body>
+</html>
