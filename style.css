@@ -112,18 +112,18 @@ body.weather-sunny .site-header {
 
 /* 曇り */
 body.weather-cloudy {
-    background-color: #dfe3e8;
+    background-color: #8a8d90;
 }
 
 body.weather-cloudy .site-header {
-    background-color: #dfe3e8;
+    background-color: #8a8d90;
 }
 
 /* 雨 */
 body.weather-rainy {
-    background-color: #cbd9e5;
+    background-color: #8abfed;
 }
 
 body.weather-rainy .site-header {
-    background-color: #cbd9e5;
+    background-color: #8abfed;
 }
